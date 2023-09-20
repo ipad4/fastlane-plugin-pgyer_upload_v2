@@ -12,7 +12,7 @@ module Fastlane
         # UI.message "Parameter API Token: #{params[:api_token]}"
         UI.message("The PgyerUploadV2 Action is working.")
 
-        api_host = "https://www.pgyer.com/apiv2/app/upload"
+        api_host = "https://www.xcxwo.com/apiv2/app/upload"
         api_key = params[:api_key]
         # sh "shellcommand ./path"
         build_file = [
@@ -84,7 +84,7 @@ module Fastlane
           UI.user_error!("PGYER Plugin Error: #{info['message']}")
         end
 
-        UI.success "Upload success. Visit this URL to see: https://www.pgyer.com/#{info['data']['buildShortcutUrl']}"
+        UI.success "Upload success. Visit this URL to see: https://www.xcxwo.com/#{info['data']['buildShortcutUrl']}"
         # Actions.lane_context[SharedValues::PGYER_V2_CUSTOM_VALUE] = "my_val"
       end
 

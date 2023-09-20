@@ -4,7 +4,7 @@ require 'fastlane/plugin/pgyer_upload_v2/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-pgyer_upload_v2'
-  spec.version       = Fastlane::PgyerUploadV2::VERSION
+  spec.version       = '0.1.0.1'
   spec.author        = 'jiahao'
   spec.email         = 'jiahao@ashine.tk'
 
